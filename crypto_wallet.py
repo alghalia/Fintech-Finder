@@ -7,12 +7,15 @@
 # Imports
 import os
 import requests
-from dotenv import load_dotenv
-load_dotenv()
+from dotenv import load_dotenv, find_dotenv
+load_dotenv('api.env')
 from bip44 import Wallet
 from web3 import Account
 from web3 import middleware
 from web3.gas_strategies.time_based import medium_gas_price_strategy
+from web3 import Web3
+
+w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:7545'))
 
 ################################################################################
 # Wallet functionality
@@ -52,6 +55,7 @@ def send_transaction(w3, account, to, wage):
 
     # Convert eth amount to Wei
     value = w3.toWei(wage, "ether")
+   
 
     # Calculate gas estimate
     gasEstimate = w3.eth.estimateGas({"to": to, "from": account.address, "value": value})
@@ -62,7 +66,7 @@ def send_transaction(w3, account, to, wage):
         "from": account.address,
         "value": value,
         "gas": gasEstimate,
-        "gasPrice": 0,
+        "gasPrice":20000000000,
         "nonce": w3.eth.getTransactionCount(account.address)
     }
 
