@@ -10,15 +10,16 @@ Fintech Finder is an application that its customers can use to find fintech prof
 - Streamlit
 
 ## Usage
-
-- This image shows the App live on Streamlit
-  ![Screanshot](https://github.com/alghalia/challenge_19/blob/main/Images/fintech%20finder%20.png)
-
+Fintech Finder is an application that its customers can use to find fintech professionals from among a list of candidates, hire them, and pay them. As Fintech Finder’s lead developer, you have been tasked with integrating Ethereum.
+With the app, you can.
 - Select the FinTech professional
 - Select the number of hours
 - Review the fee based on hours and Ethereum price
 - Send transactions to the blockchain
 - Verify the hash
+
+- This image shows the App live on Streamlit
+  ![Screanshot](https://github.com/alghalia/challenge_19/blob/main/Images/Fintech%20finder%20.png)
 
 
 
