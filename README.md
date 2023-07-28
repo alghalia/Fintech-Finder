@@ -12,7 +12,7 @@ Fintech Finder is an application that its customers can use to find fintech prof
 ## Usage
 
 - This image shows the App live on Streamlit
-  ![Screanshot](https://github.com/alghalia/Challenge_19/blob/main/images/ganache.png)width="90" height="90" />
+  ![Screanshot](https://github.com/alghalia/challenge_19/blob/main/Images/fintech%20finder%20.png)
 
 - Select the FinTech professional
 - Select the number of hours
@@ -26,6 +26,7 @@ Fintech Finder is an application that its customers can use to find fintech prof
 - Sender and Receiver addresses are visible and confirmed
 - Transaction hash is visible and confirmed
 - ETH value is confirmed
+  ![Screanshot](https://github.com/alghalia/challenge_19/blob/main/Images/Ganach%20transaction%20.png)
 
 
 ---
