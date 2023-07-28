@@ -12,11 +12,15 @@ Fintech Finder is an application that its customers can use to find fintech prof
 ## Usage
 
 - This image shows the App live on Streamlit
+  ![Screanshot](https://github.com/alghalia/Challenge_19/blob/main/images/ganache.png)width="90" height="90" />
+
 - Select the FinTech professional
 - Select the number of hours
 - Review the fee based on hours and Ethereum price
 - Send transactions to the blockchain
 - Verify the hash
+
+
 
 - This image shows the Ganache transaction hash and information
 - Sender and Receiver addresses are visible and confirmed
